@@ -1,0 +1,19 @@
+
+$namespace: 'el';
+$state-prefix: 'is-';
+$--header-padding: 0 20px !default;
+
+@mixin b($block) {
+    $B: $namespace + '-' + $block !global;
+    .#{$B} {
+        @content;
+    }
+}
+
+@mixin when($state) {
+    @at-root {
+        &.#{$state-prefix + $state} {
+            @content;
+        }
+    }
+}

@@ -14,14 +14,14 @@ let headerHeight = "30px";
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 
   <el-button type="primary">
-    按钮
+    Create
   </el-button>
   <el-button type="success">
-    按钮
+    Update
   </el-button>
-  <el-button>按钮</el-button>
+  <el-button>Query</el-button>
   <el-button type="danger" size="small">
-    按钮
+    Delete
   </el-button>
   
 </template>

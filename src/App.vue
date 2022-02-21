@@ -12,6 +12,18 @@ let headerHeight = "30px";
   </el-header>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+
+  <el-button type="primary">
+    按钮
+  </el-button>
+  <el-button type="success">
+    按钮
+  </el-button>
+  <el-button>按钮</el-button>
+  <el-button type="danger" size="small">
+    按钮
+  </el-button>
+  
 </template>
 
 <style>
